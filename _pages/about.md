@@ -1,56 +1,49 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Farjad Fallah"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am an undergraduate student in Computer Engineering at the University of Tehran, graduating in June 2026,  with a focused interest in artificial intelligence, particularly large language models (LLMs) and their applications. My research experiences span developing machine learning systems for financial market surveillance, creating adaptive LLM-based agents for investor risk profiling, and exploring multimodal approaches to enhance intent recognition in human-robot interaction.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Through these diverse projects, I have cultivated a deep fascination for the inner workings of LLMs, both in enhancing their capabilities with multimodal data and in deploying them as agents to solve real-world problems. I am particularly interested in how we can make these models more robust, interpretable, and effective in complex, ambiguous scenarios.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Research Experience
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+### [MIIRA: Multimodal Imaginative Intent Recognition Agent](/research/miira)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+This research introduces a novel framework that equips AI systems with an imagination module to resolve ambiguity in human-robot interaction. Inspired by human cognition, MIIRA generates internal multimodal simulations—narrative, visual, and auditory—from minimal textual instructions. By enriching sparse commands with imagined context, the system significantly improves a model's ability to infer intent in complex, underspecified domestic scenarios.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+My contributions included designing and implementing the text enrichment pipeline, building the multimodal simulation components, and conducting comprehensive evaluations across different modality combinations. This work demonstrates my interest in enhancing LLM capabilities through multimodal integration and cognitive-inspired approaches.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### [Adaptive LLM Interviews for Investor Risk Profiling](/research/adaptive-llm-risk-profiling)
 
-**Markdown generator**
+This project developed a novel two-agent LLM architecture for adaptive investor risk assessment, combining conversational AI with structured analytical reporting. The system conducts dynamic interviews that adjust question complexity based on user expertise, explores key risk dimensions through phased questioning, and generates comprehensive reports with numerical scores and narratives.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+I was responsible for designing and implementing the interviewer agent, developing the Telegram bot interface, and handling system integration. This project reflects my interest in creating practical applications of LLMs that can adapt to user needs and provide personalized, nuanced assessments beyond what traditional questionnaires can offer.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Featured Project
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### [Detecting Insider Trading Patterns Using High-Frequency Market Data](/projects/insider-trading-detection)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+This research project addresses persistent rumors of insider trading in the Iran stock market by developing a sophisticated machine learning system that detects anomalous trading patterns preceding significant news announcements. Our work demonstrates that systematic analysis of high-frequency market data can reveal patterns consistent with informed trading.
+
+As a key member of the three-person team, my specific contributions included designing and implementing the feature engineering pipeline, developing novel evaluation metrics, creating statistical validation frameworks using Monte Carlo simulations, and implementing RNN/LSTM models for temporal pattern detection.
+
+This project showcases my ability to work with complex, real-world datasets and develop machine learning solutions that have practical implications for financial market surveillance.
+
+## [Teaching Experience](/teaching)
+
+I have served as a Teaching Assistant for several courses at the University of Tehran, including Advanced Programming, Engineering Probability and Statistics, and Programming Languages and Compilers. In these roles, I have been responsible for designing assignments, conducting feedback sessions, and guiding students through complex technical concepts.
+
+My teaching philosophy emphasizes not only helping students complete assignments but also ensuring they understand underlying principles and develop maintainable coding practices. I have particularly enjoyed the opportunity to contribute to curricular innovations, such as transitioning a course's programming component from Python to R to broaden students' methodological toolkit.
+
+These experiences have honed my ability to communicate technical concepts effectively and have reinforced my commitment to fostering collaborative learning environments.
+
+---
+
+*This page serves as an overview of my academic journey and research interests. For more detailed information about specific projects or teaching experiences, please explore the dedicated sections.*
