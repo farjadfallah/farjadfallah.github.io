@@ -8,12 +8,12 @@ date: 2024-9-01
 location: "Tehran, Iran"
 ---
 
-As a Teaching Assistant under the supervision of [Dr. Khoshnevisan](https://cos.northeastern.edu/people/mohammad-khoshnevisan/), I collaborated with my sister to develop comprehensive course materials for this inaugural undergraduate Deep Learning course. Working closely with the professor, we translated his unique curriculum vision into 29 detailed lecture presentations that served as both primary instructional content and standalone reference materials.
+As a Teaching Assistant under the supervision of [Dr. Khoshnevisan](https://cos.northeastern.edu/people/mohammad-khoshnevisan/), I collaborated with my sister to develop comprehensive course materials for this inaugural undergraduate Deep Learning course. Working closely with the professor, we translated his unique curriculum vision into 28 detailed lecture presentations that served as both primary instructional content and standalone reference materials.
 
-The course followed a distinctive pedagogical approach designed by Dr. Khoshnevisan, blending foundational deep learning concepts with specialized topics including quantum machine learning and quantum neural networks. Additionally, the curriculum incorporated supplementary programming lectures to ensure students had the necessary prerequisites in Python, TensorFlow, and data manipulation libraries.
+The course followed a distinctive approach designed by Dr. Khoshnevisan, blending foundational deep learning concepts with specialized topics including quantum machine learning and quantum neural networks. Additionally, the curriculum incorporated supplementary programming lectures to ensure students had the necessary prerequisites in Python, TensorFlow, and data manipulation libraries.
 
 ## Lecture Materials
-The complete set of 29 lecture slides reflects the professor's comprehensive approach to deep learning education:
+The complete set of 28 lecture slides reflects the professor's comprehensive approach to deep learning education:
 
 ### Core Deep Learning Topics
 1. [Lecture 1: Activation Functions](../files/slides/01_Activation_functions.pdf)
